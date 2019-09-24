@@ -6,7 +6,7 @@ body {
     border-style: solid;
 }
 #zubiri {
-    style="width: 90%;"
+    width: 90%;
 }
 #zubiri h1 {
     float: left;
@@ -29,14 +29,13 @@ h2 {
 }
 nav {
     border-top: solid;
-    width: 100%;
+    width: 100vw;
     text-align: center;
     float: left;
 }
 nav li {
     display: inline;
     margin-left: 3px;
-    text-align: center;
     border-style: solid;
     padding: 5px;
 }
@@ -50,6 +49,7 @@ nav a {
 p {
     padding-left: 25px;
     padding-right: 25px;
+    text-align: justify;
 }
 #imagen {
     text-align: center;
@@ -69,14 +69,18 @@ p {
     float: left;
     border-right: solid;
 }
+
+}
 aside {
     width: 49%;
     float: left;
-    border-top: solid;
     height: 100%;
 }
+
 iframe {
     align-self: center;
+    height: 20vw;
+    width: 40vw;
 }
 footer {
     float: left;
@@ -84,7 +88,13 @@ footer {
     text-align: center;
     border-bottom: solid;
 }
+
+
+
 @media screen and (max-width: 500px) {
+	*{
+		font-size: 95%;
+	}
 	#zubiri {
     width: 90vw;
 }
@@ -100,5 +110,40 @@ footer {
     float: left;
     margin-left: 40px;
     margin-top: 2px;
+}
+nav {
+    text-align: center;
+    float: left;
+}
+ul{
+	padding-inline-start: 0px;
+}
+nav li {
+    display: inline;
+    margin-left: 0px;
+    border-style: solid;
+    padding: 0px;
+}
+nav a {
+    padding: 5px;
+}
+#conjunto{
+	border-style: none;
+}
+#text{
+	width: 100%;
+	border-right: none;
+}
+
+aside{
+	width: 100%;
+}
+#videoframe{
+	width: 100vw;
+	border-top: none;
+}
+iframe{
+	width: 70vw;
+	height: 40vw;
 }
 }
