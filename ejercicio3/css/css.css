@@ -1,1 +1,148 @@
-@media screen and (max-width: 1000px) 
+@media screen and (min-width: 1000px) {
+    * {}
+    .wrapper {
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .header {
+        width: 100vw;
+        background-color: orange;
+        flex: 1 1 600;
+        flex-direction: row;
+        float: left;
+    }
+    .nav {
+        flex-direction: row;
+        background-color: lightblue;
+        width: 100vw;
+        float: left;
+        text-align: right;
+    }
+    nav li {
+        display: inline;
+        text-decoration: none;
+    }
+    .main {
+        display: flex;
+        flex-direction: row;
+    }
+    .section {
+        flex-direction: column;
+        width: 25vw;
+        background-color: yellow;
+    }
+    .aside {
+        flex-wrap: wrap;
+        background-color: violet;
+        width: 75vw;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .column img {
+        width: 24vw;
+    }
+    .footer {
+        width: 100vw;
+        background-color: green;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    * {}
+    .wrapper {
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .header {
+        width: 100vw;
+        background-color: orange;
+        flex: 1 1 600;
+        flex-direction: row;
+        float: left;
+    }
+    .nav {
+        flex-direction: row;
+        background-color: lightblue;
+        width: 100vw;
+        float: left;
+        text-align: right;
+    }
+    nav li {
+        display: inline;
+        text-decoration: none;
+    }
+    .main {
+        display: flex;
+        flex-direction: row;
+    }
+    .section {
+        flex-direction: column;
+        width: 33vw;
+        background-color: yellow;
+    }
+    .aside {
+        flex-wrap: wrap;
+        background-color: violet;
+        width: 67vw;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .column img {
+        width: 33vw;
+    }
+    .footer {
+        width: 100vw;
+        background-color: green;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 700px) {
+    * {}
+    .wrapper {
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .header {
+        width: 100vw;
+        background-color: orange;
+        flex: 1 1 600;
+        flex-direction: row;
+        float: left;
+    }
+    .nav {
+        flex-direction: row;
+        background-color: lightblue;
+        width: 100vw;
+        float: left;
+        text-align: right;
+    }
+    nav li {
+        display: inline;
+        text-decoration: none;
+    }
+    .main {
+        display: flex;
+        flex-direction: row;
+    }
+    .section {
+        flex-direction: column;
+        width: 50vw;
+        background-color: yellow;
+    }
+    .aside {
+        flex-wrap: wrap;
+        background-color: violet;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .column img {
+        width: 50vw;
+    }
+    .footer {
+        width: 100vw;
+        background-color: green;
+    }
+}
