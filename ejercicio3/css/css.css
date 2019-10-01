@@ -1,11 +1,14 @@
 @media screen and (min-width: 1000px) {
-    * {}
+    * {
+
+    }
     .wrapper {
         width: 100vw;
         display: flex;
         flex-wrap: wrap;
     }
     .header {
+    	text-align: center;
         width: 100vw;
         background-color: orange;
         flex: 1 1 600;
@@ -23,12 +26,15 @@
         display: inline;
         text-decoration: none;
     }
+    a{
+    	text-decoration: none;
+    	color: white;
+    }
     .main {
         display: flex;
         flex-direction: row;
     }
     .section {
-        flex-direction: column;
         width: 25vw;
         background-color: yellow;
     }
@@ -37,10 +43,12 @@
         background-color: violet;
         width: 75vw;
         justify-content: center;
-        flex-direction: column;
+    }
+    .row {
+        display: flex;
     }
     .column img {
-        width: 24vw;
+        width: 100%;
     }
     .footer {
         width: 100vw;
@@ -56,6 +64,7 @@
         flex-wrap: wrap;
     }
     .header {
+    	text-align: center;
         width: 100vw;
         background-color: orange;
         flex: 1 1 600;
@@ -73,6 +82,10 @@
         display: inline;
         text-decoration: none;
     }
+    a{
+    	text-decoration: none;
+    	color: white;
+    }
     .main {
         display: flex;
         flex-direction: row;
@@ -83,11 +96,16 @@
         background-color: yellow;
     }
     .aside {
-        flex-wrap: wrap;
         background-color: violet;
         width: 67vw;
-        justify-content: center;
-        flex-direction: column;
+    }
+    .row {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .column{
+    	width: 45%;
+    	flex-flow: column;
     }
     .column img {
         width: 33vw;
@@ -106,6 +124,7 @@
         flex-wrap: wrap;
     }
     .header {
+    	text-align: center;
         width: 100vw;
         background-color: orange;
         flex: 1 1 600;
@@ -123,6 +142,10 @@
         display: inline;
         text-decoration: none;
     }
+    a{
+    	text-decoration: none;
+    	color: white;
+    }
     .main {
         display: flex;
         flex-direction: row;
@@ -137,6 +160,11 @@
         background-color: violet;
         justify-content: center;
         flex-direction: column;
+        width: 50vw;
+    }
+    .row{
+    	display: flex;
+    	flex-flow: wrap;
     }
     .column img {
         width: 50vw;
@@ -144,5 +172,6 @@
     .footer {
         width: 100vw;
         background-color: green;
+        text-align: center;
     }
 }
