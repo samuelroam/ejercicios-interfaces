@@ -1,0 +1,59 @@
+h1 {
+	text-align: center;
+}
+section{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+.content {
+	width: 30em;
+	text-align:  center;
+}
+.content img{
+	width: 100%;
+}
+.content label {
+	color: #ed39c9;
+}
+.content input {
+	background-color: #428af5;
+	padding: 5px;
+}
+footer {
+	display: flex;
+	align-content:  center;
+	flex-flow: column wrap;
+}
+
+
+@media screen and (min-width: 1000px) {
+	h1{
+		font-size: 4em;
+	}
+	h3{
+		font-size: 1.5em;
+	}
+	label{
+		font-size: 0.8em;
+	}
+	p{
+		font-size: 1em;
+	}
+
+}
+@media screen and (max-width: 720px) {
+	h1{
+		font-size: 2.5em;
+	}
+	h3{
+		font-size: 0.93em;
+	}
+	label{
+		font-size: 0.5em;
+	}
+	p{
+		font-size: 0.625em;
+	}
+
+}
